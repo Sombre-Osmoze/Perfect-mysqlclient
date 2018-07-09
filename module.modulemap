@@ -1,5 +1,5 @@
 module mysqlclient {
-    header "/usr/local/include/mysql/mysql.h"
+    header "/usr/local/mysql-5.7.22-macos10.13-x86_64/include/mysql.h"
     link "mysqlclient"
     export *
 }
